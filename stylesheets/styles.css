@@ -2,18 +2,42 @@
 list-style-type: none;
 margin: 0;
 padding: 0;
-background-color: ##2e8ece;
-overflow: hidden;
+background-color: #34495e;
+overflow: auto;
 }
 
 .navitem{
-float: left;
+float: right;
 }
+.navitem a:hover{
 
+background-color:#3498db;
+color:#c0392b;
+}
 
 .navitem a{
 display:block;
 color:white;
 text-align: center;
 text-decoration: none;
+padding: 14px 16px;
+}
+#homepage{
+  position: absolute;
+
+}
+
+#text{
+position: relative;
+ color: #ecf0f1
+}
+#myCanvas{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
 }
